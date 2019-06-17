@@ -82,6 +82,7 @@ class MainActivity : AppCompatActivity(), PurchasesUpdatedListener {
                     .setSkuDetails(it)
                     .build()
             billingClient!!.launchBillingFlow(this, billingFlowParams)
+            //haha!!
         }
 
         Toast.makeText(this, skuDetailsList.toString(), Toast.LENGTH_LONG).show()
